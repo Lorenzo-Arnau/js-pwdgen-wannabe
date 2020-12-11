@@ -23,7 +23,7 @@ if (chooseFive === 'si') {
    var chooseSeven = prompt('Si come no… e poi cosa gradiresti, una bella limonata fresca?Andiamo torna al lavoro, non sei in vacanza!Decidi quindi di rimettere in ordine la stanza. Riesci finalmente ad avere un quadro della situazione.E urli il tuo classico urlo di gioia ,'+ chooseForUrlo + '!! Esamini con cura l’abitacolo e noti sulla destra un pannello per la manutenzione della stazione e dietro di te scorgi una porta a tenuta stagna molto robusta.Cosa fai? Pannello della manutenzione=si Porta stagna=no');
 }
 
-if (chooseSeven == 'si') {
+if (chooseSeven === 'si') {
  var chooseEight = prompt(chooseForUrlo + ' Esclami, come ingegnere sei sempre stato un passo avanti agli altri e anche in questa occasione le tue abilità sono state estremamente utili. Tutto pare sistemato anche se il pannello dell’allarme luminoso continua a lampeggiare. Su di esso è raffigurato un Paracadute.Cosa fai? Schiacci pulsante con P=si Avvii il quadro comandi =no');
 }else{
  alert('Temo che tu sia impazzito… Aprendo la porta stagna l’ossigeno rimasto nella stazione si disperde nello spazio ponendo così fine alle tue sofferenze.');
